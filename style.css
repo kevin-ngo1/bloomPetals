@@ -176,12 +176,13 @@ hr {
 }
 
 .item {
-    width: 250px;
+    width: 240px;
     height: 145px;
     margin: 40px;
     display: inline-block;
     border: 1px solid;
 }
+
 
 
 #last {
@@ -476,6 +477,8 @@ height: 50%;
 	border-radius: 15px;
 	margin-bottom: 15px;
 }
+
+
 
 .box{
 	padding: 16px;
