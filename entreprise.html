@@ -10,17 +10,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="entete">
-        <section class="lien-entete">
-            <a href="index.html" style="text-decoration: none; color: black;">Home</a>
-            <a href="entreprise.html" style="text-decoration: none; color: black;">Entreprise</a>
-            <a href="realisations.html" style="text-decoration: none; color: black;">Réalisations</a>
-            <a href="contact.html" style="text-decoration: none; color: black;">Contact</a>
-        </section>
+    <header class="header">
+
         <form>
             <input type="search" name="q" placeholder="" class="cherche">
         </form>
-    </nav>
+
+        
+        <nav class="menu">
+            <a href="index.html">Accueil</a>
+            <a href="entreprise.html">Entreprise</a>
+            <a href="realisations.html">Réalisations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <hr id="last">
+    <hr id="last">
 
     <article>
         <section>
@@ -33,34 +40,29 @@
                 l'ambiance de votre fête.
             </p>
 
-            <section class="service">
-
-                <section class="nom">
-                    <p class="augmente">Lara</p>
-                    <p class="augmente">Clemence</p>
-                    <p class="augmente">Julie</p>
+            <article class="team">
+        
+                <section class="team-content">
+                    <section class="box">
+                        <img src="equipe/photo1.jpg">
+                        <h3>Julie</h3>
+                        <h5>Graphiste</h5>
+                    </section>
+        
+                    <section class="box">
+                        <img src="equipe/photo2.jpg">
+                        <h3>Clemence</h3>
+                        <h5>Communication</h5>
+                    </section>
+        
+                    <section class="box">
+                        <img src="equipe/photo3.jpg">
+                        <h3>Paula</h3>
+                        <h5>Marketing</h5>
+                    </section>  
+        
                 </section>
-                
-                <section>
-                    <img src="equipe/photo4.jpg" alt="Paula" class="portrait">
-                    <img src="equipe/photo2.jpg" alt="Clemence" class="portrait">
-                    <img src="equipe/photo5..jpg" alt="Julie" class="portrait">
-                </section>
-
-                <section class="nom">
-                    <p class="augmente">Paula</p>
-                    <p class="augmente">Cristine</p>
-                    <p class="augmente">Pierre</p>
-                </section>
-
-                <section>
-                    <img src="equipe/photo1.jpg" alt="Lara" class="equipe">
-                    <img src="equipe/photo3.jpg" alt="Julie" class="equipe">
-                    <img src="equipe/photo6.jpg" alt="Pierre" class="equipe">
-                </section>
-
-
-            </section>
+            </article>
 
         </section>
 
@@ -68,7 +70,7 @@
 
         <section>
             <h2 id="why">Pourquoi choisir BloomPetals</h2>
-            <ul>
+            <ul class="texte-entreprise">
                 <li>
                     Créativité Illimitée : Nous repoussons les limites de la créativité pour concevoir des
                     bouquets uniques et mémorables qui ajoutent une touche magique à votre
